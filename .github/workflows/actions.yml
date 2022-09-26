@@ -1,0 +1,39 @@
+# This is a basic workflow to help you get started with Actions
+
+  - name: README Repos List
+  # You may pin to the exact commit or the version.
+  # uses: AnandChowdhary/readme-repos-list@779449bb49f0da6c9221ee05066de8493ec0d9a2
+  uses: AnandChowdhary/readme-repos-list@v1.1.1
+  with:
+    # GitHub token
+    token: 
+    # Search query to find repositories
+    query: 
+    # Owner of repository to commit in
+    owner: # optional
+    # Name of repository to commit in
+    repo: # optional
+    # Maximum number of repositories to add
+    max: # optional
+    # Prefix content to add before list
+    prefix: # optional
+    # Query parameters for image manipulation
+    weserv-query: # optional
+    # Link to repository, not homepage (if found)
+    no-homepage: # optional
+    # Suffix content to add after list
+    suffix: # optional
+    # File path, defaults to README.md
+    path: # optional
+    # Starting comment to look for
+    start: # optional
+    # Ending commit to look for
+    end: # optional
+    # Commit message when updating file
+    commit-message: # optional
+    # Show only one repository per owner
+    one-per-owner: # optional
+    # Sort repositories by...
+    sort: # optional
+    # Order by desc or asc
+    order: # optional
